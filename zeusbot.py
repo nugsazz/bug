@@ -1508,6 +1508,7 @@ def bot(op):
 							kc.leaveGroup(msg.to)
 						except:
 							pass
+							cl.sendText(msg.to"Dadah")
             elif msg.text in ["Bye 1"]:
 				if msg.from_ in admin:
 					if msg.toType == 2:

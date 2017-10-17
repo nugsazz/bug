@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 	
 
-	importLINETCR
+	import*LINETCR
 	fromLINETCR.lib.curve.ttypes import*
 	from datetime import datetime
 	import time,random,sys,json,codecs,threading,glob,re

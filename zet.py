@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EmMI1U4ahF6X4bFPC2X7.fROoCb5YL8J4cs3OuFFzjW.JvUP3UcVtbCk0XcVfoPeLNj6YHz+fSXCz6qQzu3V7V4=")
 cl.loginResult()
 
 ki = kk = kc = cl 
@@ -15,7 +15,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""¤¤¤¤ Bot By : Zekai ¤¤¤¤
+helpMessage ="""¤¤¤¤ Bot By : Nugi ¤¤¤¤
 ¤ Id︎
 ¤ Mid
 ¤ Me︎
@@ -75,15 +75,15 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
-admin=["u880ee16541e4a34cd0f0dfc6a7e64833","u2b457b1ef8391ee451c9a22c835e1e33"]
+admin=["u16ba0e701e7297c8f8092de851f7d927"]
 wait = {
     'contact':False,
     'autoJoin':True,
-    'autoCancel':{"on":True,"members":1},
+    'autoCancel':{"on":False,"members":1},
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"Zeus is back",
+    'message':"Suci is back",
     "lang":"JP",
     "comment":"",
     "commentOn":True,
@@ -94,7 +94,7 @@ wait = {
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
-    "protectionOn":True,
+    "protectionOn":False,
     "atjointicket":True
     }
 

@@ -4,11 +4,10 @@ import LINETCR
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
-
 cl = LINETCR.LINE()
-cl.login(login="EmMI1U4ahF6X4bFPC2X7.fROoCb5YL8J4cs3OuFFzjW.JvUP3UcVtbCk0XcVfoPeLNj6YHz+fSXCz6qQzu3V7V4=")
+cl.login(token="EmMI1U4ahF6X4bFPC2X7.fROoCb5YL8J4cs3OuFFzjW.JvUP3UcVtbCk0XcVfoPeLNj6YHz+fSXCz6qQzu3V7V4="
 cl.loginResult()
-
+Apakah ini?
 ki = kk = kc = cl 
 
 print "login success"
